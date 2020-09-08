@@ -14,12 +14,23 @@
  
 
 
- var b = true;
- function buton() {
-     if (b) {
-         var a = document.getElementById("op");
-         var pop = document.getElementById("pop");
-         pop.innerHTML += a.innerHTML;
-         b = false;
-     }
+//  var b = true;
+//  function buton() {
+//      if (b) {
+//          var a = document.getElementById("op");
+//          var pop = document.getElementById("pop");
+//          pop.innerHTML += a.innerHTML;
+//          b = false;
+//      }
+//  }
+
+
+ function show(){
+     var op = document.querySelector("#op");
+     if (op.style.display === "none") {
+        op.style.display = "block";
+      } else {
+        op.style.display = "none";
+      }
  }
+ 

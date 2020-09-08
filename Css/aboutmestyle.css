@@ -85,7 +85,7 @@ a:hover {
 }
 
 .right {
-    float: left;
+    float: center;
     padding-left: 20px;
     margin-right: -10px;
     margin-left: 14% width: 99%;
